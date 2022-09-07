@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="prakhar assignment">
+    <title>Shopping Cart </title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Shopping Cart </h1>
+ 
+
+ 
+      
+ <main>
+     
+   <div id="alerts"></div>
+   <h2> cosmatics </h2> 
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Lakme lipsticks</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$5.05</p>
+            <button class="addtocart">Add To Cart</button>
+            <button class="removetocart">remove To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">bangles</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Add To Cart</button>
+            <button class="removetocart">remove To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">fair & lovely</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+            <button class="removetocart">remove To Cart</button>
+        </div>
+      </div>
+      <h2>sports things </h2>
+      <div class="productcont">
+        <div class="product">
+            <h3 class="productname">Bat</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$5.05</p>
+            <button class="addtocart">Add To Cart</button>
+            <button class="removetocart">remove To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Ball</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Add To Cart</button>
+            <button class="removetocart">remove To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Wicket</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+            <button class="removetocart">remove To Cart</button>
+        </div>
+      </div>
+
+
+
+
+
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+
+ </main>
+ 
+      
+  
+
+        <script  src="./js/script.js"></script> 
+  </body>
+</html>
